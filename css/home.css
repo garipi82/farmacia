@@ -1,0 +1,97 @@
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  text-align: left;
+}
+li {
+  padding: 0px 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(3, 13, 145);
+}
+a:hover {
+  color: rgb(19, 180, 4);
+}
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.round {
+  width: 320px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.round a {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  margin: -32px;
+}
+.round a:hover {
+  width: 90px;
+  height: 90px;
+}
+.round img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+.center {
+  height: 400px;
+}
+.rot0 {
+  transform: translate(15vw);
+}
+.rot45 {
+  transform: rotate(45deg) translate(15vw) rotate(-45deg);
+}
+.rot90 {
+  transform: rotate(90deg) translate(15vw) rotate(-90deg);
+}
+.rot135 {
+  transform: rotate(135deg) translate(15vw) rotate(-135deg);
+}
+.rot180 {
+  transform: translate(-15vw);
+}
+.rot225 {
+  transform: rotate(225deg) translate(15vw) rotate(-225deg);
+}
+.rot270 {
+  transform: rotate(270deg) translate(15vw) rotate(-270deg);
+}
+.rot315 {
+  transform: rotate(315deg) translate(15vw) rotate(-315deg);
+}
+.login {
+  font-size: 28px;
+  transform: rotate(90deg) translate(0vw) rotate(-90deg);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+
+  text-align: center;
+}
